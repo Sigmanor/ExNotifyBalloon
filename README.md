@@ -9,9 +9,8 @@ Windows 10 style notifications for Windows Forms.
 - Because I can't change notification font/color/etc
 
 ## Install
-`Install-Package ExNotifyBalloon -Version 1.0.0`
+Install via NuGet: `Install-Package ExNotifyBalloon` or click [here](https://www.nuget.org/packages/ExNotifyBalloon/ "here").
 
 ## Usage example
 <pre>var notification = new ExNotifyBalloon(Resources.info, "Title", "Body", 5000);
 notification.Show();</pre>
-
